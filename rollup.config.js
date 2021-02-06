@@ -34,7 +34,9 @@ export default {
 		sourcemap: true,
 		format: 'iife',
 		name: 'app',
-		file: '../../../../../../Applications/MAMP/htdocs/wp-content/plugins/cookie-plugin/app.js'
+		file: '/public/build/bundle.js'
+		// example of local path to test your plugin
+		// file: '../../../../../../Applications/MAMP/htdocs/wp-content/plugins/cookie-plugin/app.js'
 	},
 	plugins: [
 		svelte({
