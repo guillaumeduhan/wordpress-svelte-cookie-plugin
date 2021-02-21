@@ -21,12 +21,10 @@
 
 <div
   class="CookieBanner container fixed-bottom"
-  ng-controller="CookieController"
 >
   <div
     class="alert alert-light border alert-dismissible fade show"
     role="alert"
-    ng-if="isVisible"
   >
     <div class="row justify-content-between align-items-stretch">
       <div
